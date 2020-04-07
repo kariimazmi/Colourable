@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rVS-GY-5nl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-Ku-ZoR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="204.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDo-ks-jLG">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhB-9L-Lfl">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0jv-fs-Xz8">
+                                        <rect key="frame" x="0.0" y="204.5" width="414" height="204.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7wl-hY-rQK">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="80b-Q2-ZgJ">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2q4-8x-Ycf">
+                                        <rect key="frame" x="0.0" y="409" width="414" height="204.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tws-PR-T1q">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2k-rj-pdM">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="i9i-7u-f23">
+                                        <rect key="frame" x="0.0" y="613.5" width="414" height="204.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYz-hp-D87">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9U-Vn-kYz">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="204.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rVS-GY-5nl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JFH-7T-G6E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rVS-GY-5nl" secondAttribute="bottom" id="R1U-Ru-HS4"/>
+                            <constraint firstItem="rVS-GY-5nl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b35-2u-aNE"/>
+                            <constraint firstItem="rVS-GY-5nl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gIw-ry-r4D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="collection" destination="NDo-ks-jLG" collectionClass="NSMutableArray" id="Ss1-93-IXO"/>
+                        <outletCollection property="collection" destination="zhB-9L-Lfl" collectionClass="NSMutableArray" id="Xiv-gH-Jv7"/>
+                        <outletCollection property="collection" destination="7wl-hY-rQK" collectionClass="NSMutableArray" id="qsE-h2-5Pp"/>
+                        <outletCollection property="collection" destination="80b-Q2-ZgJ" collectionClass="NSMutableArray" id="gGw-A3-cVc"/>
+                        <outletCollection property="collection" destination="tws-PR-T1q" collectionClass="NSMutableArray" id="DpT-bD-3hO"/>
+                        <outletCollection property="collection" destination="V2k-rj-pdM" collectionClass="NSMutableArray" id="CMb-eC-bQ6"/>
+                        <outletCollection property="collection" destination="sYz-hp-D87" collectionClass="NSMutableArray" id="wbr-Ur-0zb"/>
+                        <outletCollection property="collection" destination="Z9U-Vn-kYz" collectionClass="NSMutableArray" id="gNC-N2-x21"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="119"/>
+        </scene>
+    </scenes>
+</document>
